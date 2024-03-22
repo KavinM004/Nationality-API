@@ -1,0 +1,28 @@
+.Jan{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:rgb(95, 96, 97);
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{ 
+    background:url(https://ft.syncfusion.com/featuretour/react-js2/images/maps/react-maps-with-customized-appearance.png);
+    font-size: 30px;
+}
+
+.bton:hover{
+    transition: 0.5s ease-out;
+    color: rgb(158, 153, 164);
+    background-color: #E6E6FA;
+    transform: scale(1.1);
+    transition:1s; 
+}
+
+.form-control:hover{
+    color: rgb(85, 87, 90);
+    font-size: 20px;
+    font-weight: 500;
+    border-color: rgb(15, 155, 76); 
+}
